@@ -1,9 +1,12 @@
-Assignment 1: Introduction to Testing and Defect Tracking
+# SENG 637 - Winter 2022
 
-Your Name: Michael Lee, https://github.com/mlee2021
+**Assignment 1** - Introduction to Testing and Defect Tracking
 
-Team Member 1: Bhavyai Gupta, https://github.com/zbhavyai
+## Contributors
 
-Team Member 2: Drew Burritt, https://github.com/dburritt
-
-Team Member 3: OKEOGHENEMARHO  OBUAREGHE, 
+| Group 5 students         | GitHub link                                 |
+| ------------------------ | ------------------------------------------- |
+| Bhavyai Gupta            | [zbhavyai](https://github.com/zbhavyai)     |
+| Drew Burritt             | [dburritt](https://github.com/dburritt)     |
+| Michael Man Yin Lee      | [mlee2021](https://github.com/mlee2021)     |
+| Okeoghenemarho Obuareghe | [oobuareghe](https://github.com/oobuareghe) |
