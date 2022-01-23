@@ -32,7 +32,25 @@ All members must participate in the demo and the video should not be longer than
 
 ## High-level description of the exploratory testing plan
 
-Text...
+<!-- **Pair 1**: exploratory testing with card 1, using pin 42.
+
+**Pair 2**: exploratory testing with card 2, using pin 1234.
+ -->
+
+#### Approach being taken
+
+1. Explore the common routines that a user would do when he visits the ATM
+2. Explore all the functions little bit
+3. After every transaction, check the balance in the accounts, and the logs to verify if everything has been recorded correctly
+4. Check the receipt generated to see if it captures the correct details
+
+#### Functionalities being tested
+
+1. Viewing balance of available accounts
+2. Deposit of cash
+3. Withdrawl of cash
+4. Transfer of money
+5. Verying the logs
 
 ## Comparison of exploratory and manual functional testing
 
