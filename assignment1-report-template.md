@@ -67,7 +67,17 @@ _The trade-off with scripted testing_ - it relies on the imagination of the writ
 
 ## Notes and discussion of the peer reviews of defect reports
 
-Text...
+The group’s peer review consist of the two pairs reviewing each other’s observations from the exploratory and scripted tests.
+
+
+The interesting discovery that we have as a group is that each one of us has our own distinct approach in operating the ATM program. This is especially true for the exploratory testing as we each found unique bugs with little overlap. This means that we each have slightly unique approach when we go about testing the ATM.
+
+
+We split our peer review into two major components; the first component being the exploratory testing and the other component being the scripted testing. For each component, we first review the list of bugs reported from the other pair and try to reproduce it in the program. After we finished reviewing, we will meet online together as a group to discuss our feedback; particularly the items that are not reproducible during the peer review. This has led to many valuable information such as the display setting differences between different team members.
+
+
+For example, for the bug ATM_1-20, the group has a thorough discussion as some group members cannot reproduce the issue, which is that the word transaction appears to be truncated in certain situations. After a thorough discussion, we have discovered that our team members’ uses a wide range of display resolution and scaling in which some members can reproduce the issue, while some cannot.
+
 
 ## Managing pair testing and division of team work
 
