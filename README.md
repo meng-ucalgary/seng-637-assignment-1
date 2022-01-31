@@ -8,6 +8,8 @@
 
 -   The export of issues from Backlog is placed [here](issues/Backlog_Export.xlsx).
 
+-   The summary of scripted tests, and their results is placed [here](issues/Scripted_MFT.xlsx).
+
 -   The assignment report is [here](assignment1-report-template.md).
 
 ## Contributors
