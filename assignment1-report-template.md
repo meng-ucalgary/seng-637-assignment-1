@@ -23,6 +23,7 @@ If we find any bug during exploratory/scripted testing, we will log it in Backlo
 Then for each bug found, we will perform regression testing on the updated version of the given system, and update its status in the Backlog. The updated sytem is available inside the zip archive [assignment1-artifacts.zip](assignment1-artifacts.zip), and the file name is **"ATM System - Lab 1 Version 1.1.jar"**.
 
 Before this lab, we didn't know the anything about exploratory tests and scripted tests and the differences between them. However, I (Bhavyai) had heard of Regression and regression testing from my previous job.
+The only experience we had with testing was non-structured testing of our own programs in other courses, simply checking if the features work as intended. 
 
 ## Video demo
 
@@ -35,7 +36,7 @@ Below points summarizes the high level description of the exploratory testing pl
 
 #### Approach being taken
 
-1. Explore the common routines that a user would do when he visits the ATM
+1. Explore the common routines that a user would do when they visit the ATM
 2. Also explore what the user can potentially do when he visits the ATM, like pressing incorrect buttons
 3. Explore all the functions little bit
 4. After every transaction, check the balance in the accounts, and the logs to verify if everything has been recorded correctly
@@ -44,16 +45,16 @@ Below points summarizes the high level description of the exploratory testing pl
 #### Functionalities being targetted
 
 1. Viewing balance of available accounts
-2. Deposit of cash
+2. Deposit of cashA
 3. Withdrawl of cash
 4. Transfer of money
 5. Verying the logs
 
 ## Comparison of exploratory and scripted testing
 
-With exploratory testing our team has found many more bugs than during scripted testing sessions. We believe the reason for this is because each of our team members have found very innovative and diverse ways in operating the program. These diverse usages have allowed us to observe more bugs than the 40 scripted test cases. This is the biggest benefit of the exploratory testing, that we are not restricted during the testing. Also. exploratory testing is effective, especially when the scripted tests are not exhaustive. For example, the given forty manual scripted tests were simply not enough to cover most of the bugs.
+With exploratory testing our team has found many more bugs than during scripted testing sessions. We believe the reason for this is because each of our team members have found very innovative and diverse ways in operating the program. These diverse usages have allowed us to observe more bugs than the 40 scripted test cases. This is the biggest benefit of the exploratory testing, that we are not restricted during the testing. Also. exploratory testing is effective, especially when the scripted tests are not exhaustive. For example, the given 40 manual scripted tests were simply not enough to cover most of the bugs.
 
-<u>The trade-off with exploratory testing</u> - it was difficult to keep track our progress in testing out the program’s functionality as nothing was planned out. Also, several bugs could possibly have been missed.
+<u>The trade-off with exploratory testing</u> - it was difficult to keep track our progress in testing out the program’s functionality as nothing was planned out. Also, several bugs could possibly have been missed. Occasionally a bug would be noticed during exploratory testing but it was unable to be replicated since the steps weren't already planned out. 
 
 On the contrary, scripted testing is more efficient for keeping track of progress and for recording the bugs. The scripted tests can be easily followed by anyone to ensure that the code meets the minimum expected quality. Scripted tests, once written, do not rely on the ideas of the tester as they have to follow the exact steps during the testing.
 
