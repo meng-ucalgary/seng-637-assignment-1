@@ -64,7 +64,14 @@ Text...
 
 ## How the pair testing was managed and team work/effort was divided
 
-Text...
+For assignment 1, we each do a thorough exploratory testing, and we record all of the bugs that we found in the process. We then collected every team member’s records and compile it into a list.
+
+
+We then split the test cases evenly between two pairs for the functional and regression testing; with cases 1-20 being done by Drew and Oke while cases 21-40 are completed by Bhavyai and Michael. For each of the case, we first record what we observe in version 1.0 and then we record what we observed in version 1.1. 
+
+
+Finally, the two pairs would do a peer review of the functional and regression testing. What this entails is to review the records for each cases in both version 1.0 and 1.1 to see if the records can be reproducible in the ATM program.
+
 
 ## Difficulties, challenges, and lessons learned
 
