@@ -77,11 +77,15 @@ Finally, the two pairs would do a peer review of the MFT and regression testing.
 
 ## Difficulties, challenges, and lessons learned
 
-One of the difficulty that we faced was related to exploratory tests. Each pair of group reported similar set of bugs. So we had multiple bugs reported twice, that too with varied description of the same bug. Some of the bugs reported could not be reproduced.
+1. One of the difficulty that we faced was related to exploratory tests. Each pair of group reported similar set of bugs. So we had multiple bugs reported twice, that too with varied description of the same bug. Some of the bugs reported could not be reproduced.
 
-Combining all those bugs to keep only the unique ones was a challenge. We overcame this by all coming together virtually over Discord, discussing what each pair has found, and then one person going over all issues to consolidate them in one document, while rest others helping in the process. We tested all the reported bugs during this process, and removed the bugs that couldn't be reproduced at all.
+    Combining all those bugs to keep only the unique ones was a challenge. We overcame this by all coming together virtually over Discord, discussing what each pair has found, and then one person going over all issues to consolidate them in one document, while rest others helping in the process. We tested all the reported bugs during this process, and removed the bugs that couldn't be reproduced at all.
 
-The lesson learned from this was team work. The whole team should be on the same page. They must know what's should be done and how other team members are contributing to the same assignment. We must maintain a central document or place where each team member should look if an issue has already been reported before adding his/her own issue. This would reduce duplicacy and unnecesary efforts to remove that duplicacy.
+    The lesson learned from this was team work. The whole team should be on the same page. They must know what's should be done and how other team members are contributing to the same assignment. We must maintain a central document or place where each team member should look if an issue has already been reported before adding his/her own issue. This would reduce duplicacy and unnecesary efforts to remove that duplicacy.
+
+2. The other challenge was to make sure that all the defects are reported with same level of details. Without a proper format to follow it can get difficult to make sure every tester logs their testing in detail. For this, we used a very simple reporting format, that was followed by every tester in our group. This format was made based on the instructions and requirements present in the assignment description document.
+
+    The lesson learned from this was to have a guideline in the process that is to be followed. This guideline/best-practice made sure that bugs we raised not only captured detailed information but also ensured that the information logged is easy to follow.
 
 ## Comments and feedback
 
