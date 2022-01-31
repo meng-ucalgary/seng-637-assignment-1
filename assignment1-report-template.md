@@ -71,7 +71,7 @@ Text...
 
 ## Managing pair testing and division of team work
 
-For exploratory testing, each of did individual tests. We recorded all of the bugs that were found in the process. We then collected every team member's recorded bugs and compiled it into a list. Finally, the bugs that were found were also tested in version 1.1 of the SUT.
+For exploratory testing, each us of did individual tests for approximatly 30 min (not including the time for recording of results) We recorded all of the bugs that were found in the process. We then collected every team member's recorded bugs and compiled it into a list. Finally, the bugs that were found were also tested in version 1.1 of the SUT. General funcionality was also tested again to ensure no new bugs were introduced, with the large number of bugs in version 1.0, most of this was already covered. 
 
 For MFT and regression testing, we split the forty test cases evenly between two pairs; with cases 1-20 being done by Drew and Okeoghenemarho while cases 21-40 were completed by Bhavyai and Michael. In both the pairs, when one guy was testing, the other was recording the steps and bugs, and vice-versa. For each of the forty testcases, we first record what we observe in version 1.0 and then we record what we observed in version 1.1 of the SUT.
 
