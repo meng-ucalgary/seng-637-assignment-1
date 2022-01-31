@@ -8,7 +8,7 @@
 
 -   The export of issues from Backlog is placed [here](issues/Backlog_Export.xlsx).
 
--   The project report is [here](assignment1-report-template.md).
+-   The assignment report is [here](assignment1-report-template.md).
 
 ## Contributors
 
