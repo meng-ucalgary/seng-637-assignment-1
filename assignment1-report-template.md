@@ -45,7 +45,7 @@ Below points summarizes the high level description of the exploratory testing pl
 #### Functionalities being targetted
 
 1. Viewing balance of available accounts
-2. Deposit of cashA
+2. Deposit of cash
 3. Withdrawl of cash
 4. Transfer of money
 5. Verying the logs
