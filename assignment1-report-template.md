@@ -1,36 +1,35 @@
 # SENG 637 - Winter 2022
 
-**Assignment 1** - Introduction to Testing and Defect Tracking
-
-| Group 5 students         | GitHub link                                 |
-| ------------------------ | ------------------------------------------- |
-| Bhavyai Gupta            | [zbhavyai](https://github.com/zbhavyai)     |
-| Drew Burritt             | [dburritt](https://github.com/dburritt)     |
-| Michael Man Yin Lee      | [mlee2021](https://github.com/mlee2021)     |
-| Okeoghenemarho Obuareghe | [oobuareghe](https://github.com/oobuareghe) |
+**Assignment 1**: Introduction to Testing and Defect Tracking
 
 ## Table of Contents
 
 -   [Introduction](#introduction)
--   [Link of demo video](#link-of-demo-video)
--   [High-level description of the exploratory testing plan](#high-level-description-of-the-exploratory-testing-plan)
--   [Comparison of exploratory and manual functional testing](#comparison-of-exploratory-and-manual-functional-testing)
+-   [Video Demo](#video-demo)
+-   [Description of Exploratory Testing plan](#description-of-exploratory-testing-plan)
+-   [Comparison of exploratory and scripted testing](#comparison-of-exploratory-and-scripted-testing)
 -   [Notes and discussion of the peer reviews of defect reports](#notes-and-discussion-of-the-peer-reviews-of-defect-reports)
 -   [How the pair testing was managed and team work/effort was divided](#how-the-pair-testing-was-managed-and-team-workeffort-was-divided)
--   [Difficulties encountered, challenges overcome, and lessons learned](#difficulties-encountered-challenges-overcome-and-lessons-learned)
--   [Comments/feedback on the lab and lab document itself](#commentsfeedback-on-the-lab-and-lab-document-itself)
+-   [Difficulties, challenges, and lessons learned](#difficulties-challenges-and-lessons-learned)
+-   [Comments and feedback](#comments-and-feedback)
+-   [Contributors](#contributors)
 
 ## Introduction
 
-An introduction of your lab work, and what you knew about exploratory and manual
-functional testing before this lab
+In this lab work, we will be performing exploratory tests and scripted tests on the given ATM simulation system v1.0. It is available inside the zip archive [assignment1-artifacts.zip](assignment1-artifacts.zip), and the file name is **"ATM System - Lab 1 Version 1.0.jar"**.
 
-## Link of demo video
+If we find any bug during exploratory/scripted testing, we will log it in Backlog. Our Backlog is available at [https://seng637g5.backlog.com/dashboard](https://seng637g5.backlog.com/dashboard).
+
+Then for each bug found, we will perform regression testing on the updated version of the given system, and update the status of the bug in the Backlog. The updated sytem is available inside the zip archive [assignment1-artifacts.zip](assignment1-artifacts.zip), and the file name is **"ATM System - Lab 1 Version 1.1.jar"**.
+
+Before this lab, we didn't know the anything about exploratory tests and scripted tests and the differences between them. However, I (Bhavyai) had heard of Regression and regression testing from my previous job.
+
+## Video Demo
 
 Make a video of the demo and put its link here.
 All members must participate in the demo and the video should not be longer than 10 minutes.
 
-## High-level description of the exploratory testing plan
+## Description of Exploratory Testing plan
 
 <!-- **Pair 1**: exploratory testing with card 1, using pin 42.
 
@@ -52,7 +51,7 @@ All members must participate in the demo and the video should not be longer than
 4. Transfer of money
 5. Verying the logs
 
-## Comparison of exploratory and manual functional testing
+## Comparison of exploratory and scripted testing
 
 Text...
 
@@ -67,10 +66,27 @@ Text...
 
 Text...
 
-## Difficulties encountered, challenges overcome, and lessons learned
+## Difficulties, challenges, and lessons learned
 
-Text...
+One of the difficulty that we faced was related to exploratory tests. Each pair of group reported similar set of bugs. So we had multiple bugs reported twice, that too with varied description of the same bug. Some of the bugs reported could not be reproduced.
 
-## Comments/feedback on the lab and lab document itself
+Combining all those bugs to keep only the unique ones was a challenge. We overcame this by all coming together virtually over Discord, discussing what each pair has found, and then one person going over all issues to consolidate them in one document, while rest others helping in the process. We tested all the reported bugs during this process, and removed the bugs that couldn't be reproduced at all.
 
-Text...
+The lesson learned from this was team work. The whole team should be on the same page. They must know what's should be done and how other team members are contributing to the same assignment. We must maintain a central document or place where each team member should look if an issue has already been reported before adding his/her own issue. This would reduce duplicacy and unnecesary efforts to remove that duplicacy.
+
+## Comments and feedback
+
+1. Backlog was used as a tool for reporting and managing bugs. In our opinion, it was perfect for this assignment. Now we are familiar with three issue tracking tools - other two being Jira and GitHub.
+
+2. The SUT chosen for this assignment was a great example for both exploratory testing/scripted testing and regression testing. It was simple enough to be understood by anyone, yet it had plenty of bugs to be discovered.
+
+3. The assignment description document [`assignment1.md`](assignment1.md) is very detailed and comprehensive, and it was easy to follow.
+
+## Contributors
+
+We are group 5, and below are the team members
+
+-   [Bhavyai Gupta](https://github.com/zbhavyai)
+-   [Drew Burritt](https://github.com/dburritt)
+-   [Michael Man Yin Lee](https://github.com/mlee2021)
+-   [Okeoghenemarho Obuareghe](https://github.com/oobuareghe)
