@@ -2,6 +2,14 @@
 
 **Assignment 1** - Introduction to Testing and Defect Tracking
 
+## Structure
+
+-   Our group's Backlog is at [https://seng637g5.backlog.com/dashboard](https://seng637g5.backlog.com/dashboard).
+
+-   The export of issues from Backlog is placed [here](issues/Backlog_Export.xlsx).
+
+-   The project report is [here](assignment1-report-template.md).
+
 ## Contributors
 
 | Group 5 students         | GitHub link                                 |
