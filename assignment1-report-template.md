@@ -8,7 +8,7 @@
 -   [Video demo](#video-demo)
 -   [Description of exploratory testing plan](#description-of-exploratory-testing-plan)
 -   [Comparison of exploratory and scripted testing](#comparison-of-exploratory-and-scripted-testing)
--   [Notes and discussion of the peer reviews of defect reports](#notes-and-discussion-of-the-peer-reviews-of-defect-reports)
+-   [Discussion of peer reviews of defect reports](#discussion-of-peer-reviews-of-defect-reports)
 -   [Managing pair testing and division of team work](#managing-pair-testing-and-division-of-team-work)
 -   [Difficulties, challenges, and lessons learned](#difficulties-challenges-and-lessons-learned)
 -   [Comments and feedback](#comments-and-feedback)
@@ -53,7 +53,7 @@ Below points summarizes the high level description of the exploratory testing pl
 
 With exploratory testing our team has found many more bugs than during scripted testing sessions. We believe the reason for this is because each of our team members have found very innovative and diverse ways in operating the program. These diverse usages have allowed us to observe more bugs than the 40 scripted test cases. This is the biggest benefit of the exploratory testing, that we are not restricted during the testing. Also. exploratory testing is effective, especially when the scripted tests are not exhaustive. For example, the given 40 manual scripted tests were simply not enough to cover most of the bugs.
 
-_The trade-off with exploratory testing_ - it was difficult to keep track our progress in testing out the program’s functionality as nothing was planned out. Also, several bugs could possibly have been missed. Occasionally a bug would be noticed during exploratory testing but it was unable to be replicated since the steps weren't already planned out.
+_The trade-off with exploratory testing_ - it was difficult to keep track our progress in testing out the program's functionality as nothing was planned out. Also, several bugs could possibly have been missed. Occasionally a bug would be noticed during exploratory testing but it was unable to be replicated since the steps weren't already planned out.
 
 On the contrary, scripted testing is more efficient for keeping track of progress and for recording the bugs. The scripted tests can be easily followed by anyone to ensure that the code meets the minimum expected quality. Scripted tests, once written, do not rely on the ideas of the tester as they have to follow the exact steps during the testing.
 
@@ -65,23 +65,19 @@ _The trade-off with scripted testing_ - it relies on the imagination of the writ
 
 2. The summary of MFT tests is made available [here](issues/Scripted_MFT.xlsx).
 
-## Notes and discussion of the peer reviews of defect reports
+## Discussion of peer reviews of defect reports
 
-The group’s peer review consist of the two pairs reviewing each other’s observations from the exploratory and scripted tests.
+The group's peer review consist of the two pairs reviewing each other's observations from the exploratory and scripted tests.
 
-
-The interesting discovery that we have as a group is that each one of us has our own distinct approach in operating the ATM program. This is especially true for the exploratory testing as we each found unique bugs with little overlap. This means that we each have slightly unique approach when we go about testing the ATM.
-
+The interesting discovery that we had as a group is that each one of us has our own distinct approach in operating the ATM program. This is especially true for the exploratory testing as we each found unique bugs with little overlap. This means that we each have slightly unique approach when we go about testing the ATM.
 
 We split our peer review into two major components; the first component being the exploratory testing and the other component being the scripted testing. For each component, we first review the list of bugs reported from the other pair and try to reproduce it in the program. After we finished reviewing, we will meet online together as a group to discuss our feedback; particularly the items that are not reproducible during the peer review. This has led to many valuable information such as the display setting differences between different team members.
 
-
-For example, for the bug ATM_1-20, the group has a thorough discussion as some group members cannot reproduce the issue, which is that the word transaction appears to be truncated in certain situations. After a thorough discussion, we have discovered that our team members’ uses a wide range of display resolution and scaling in which some members can reproduce the issue, while some cannot.
-
+For example, for the bug ATM_1-20, the group has a thorough discussion as some group members cannot reproduce the issue, which is that the word transaction appears to be truncated in certain situations. After a thorough discussion, we have discovered that our team members' uses a wide range of display resolution and scaling in which some members can reproduce the issue, while some cannot.
 
 ## Managing pair testing and division of team work
 
-For exploratory testing, each us of did individual tests for approximatly 30 min (not including the time for recording of results) We recorded all of the bugs that were found in the process. We then collected every team member's recorded bugs and compiled it into a list. Finally, the bugs that were found were also tested in version 1.1 of the SUT. General funcionality was also tested again to ensure no new bugs were introduced, with the large number of bugs in version 1.0, most of this was already covered. 
+For exploratory testing, each us of did individual tests for approximatly 30 min (not including the time for recording of results) We recorded all of the bugs that were found in the process. We then collected every team member's recorded bugs and compiled it into a list. Finally, the bugs that were found were also tested in version 1.1 of the SUT. General funcionality was also tested again to ensure no new bugs were introduced, with the large number of bugs in version 1.0, most of this was already covered.
 
 For MFT and regression testing, we split the forty test cases evenly between two pairs; with cases 1-20 being done by Drew and Okeoghenemarho while cases 21-40 were completed by Bhavyai and Michael. In both the pairs, when one guy was testing, the other was recording the steps and bugs, and vice-versa. For each of the forty testcases, we first record what we observe in version 1.0 and then we record what we observed in version 1.1 of the SUT.
 
@@ -89,7 +85,7 @@ Finally, the two pairs would do a peer review of the MFT and regression testing.
 
 ## Difficulties, challenges, and lessons learned
 
-1. One of the difficulty that we faced was related to exploratory tests. Each pair of group reported similar set of bugs. So we had multiple bugs reported twice, that too with varied description of the same bug. Some of the bugs reported could not be reproduced.
+1. One of the difficulty that we faced was related to exploratory tests. Each pair of group reported some similar set of bugs. So we had multiple bugs reported twice, that too with varied description of the same bug. Some of the bugs reported could not be reproduced.
 
     Combining all those bugs to keep only the unique ones was a challenge. We overcame this by all coming together virtually over Discord, discussing what each pair has found, and then one person going over all issues to consolidate them in one document, while rest others helping in the process. We tested all the reported bugs during this process, and removed the bugs that couldn't be reproduced at all.
 
