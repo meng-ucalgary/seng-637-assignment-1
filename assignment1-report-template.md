@@ -1,6 +1,6 @@
-# SENG 637 - Winter 2022
+# Assignment 1 Report
 
-**Assignment 1**: Introduction to Testing and Defect Tracking
+**Topic** - Introduction to Testing and Defect Tracking
 
 ## Table of Contents
 
