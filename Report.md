@@ -26,8 +26,7 @@ Before this lab, we didn't know the anything about exploratory tests and scripte
 
 ## Video demo
 
-Make a video of the demo and put its link here.
-All members must participate in the demo and the video should not be longer than 10 minutes.
+Link to the video demonstration of testing is [here](https://www.youtube.com/watch?v=Kck9f4AFRTg).
 
 ## Description of exploratory testing plan
 
@@ -101,7 +100,7 @@ Finally, the two pairs would do a peer review of the MFT and regression testing.
 
 2. The SUT chosen for this assignment was a great example for both exploratory testing/scripted testing and regression testing. It was simple enough to be understood by anyone, yet it had plenty of bugs to be discovered.
 
-3. The assignment description document [`assignment1.md`](assignment1.md) is very detailed and comprehensive, and it was easy to follow.
+3. The assignment description document [`Assignment_Description.md`](Assignment_Description.md) is very detailed and comprehensive, and it was easy to follow.
 
 ## Contributors
 
