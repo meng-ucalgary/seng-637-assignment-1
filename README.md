@@ -10,7 +10,9 @@
 
 -   The summary of scripted tests, and their results is placed [here](issues/Scripted_MFT.xlsx).
 
--   The assignment report is [here](assignment1-report-template.md).
+-   The assignment report is [here](Report.md).
+
+-   The demonstration video is [here](https://www.youtube.com/watch?v=Kck9f4AFRTg).
 
 ## Contributors
 
